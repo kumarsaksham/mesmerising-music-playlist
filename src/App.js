@@ -92,7 +92,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <header>Mesmerising Music Playlist</header>
+      <header>My Music Playlist</header>
       <p>See my favourite music playlist. Choose language to get started.</p>
 
       {Object.keys(songsDictionary).map((songLanguage) => {
